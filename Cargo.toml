@@ -21,8 +21,8 @@
 [package]
 name = "merge-yaml-hash"
 description = "Merge YAML Hash"
-categories = ["yaml", "hash", "configuration"]
-version = "0.1.1"
+categories = ["config", "encoding", "parsing"]
+version = "0.1.2"
 license = "MIT"
 repository = "https://github.com/qtfkwk/merge-yaml-hash"
 readme = "README.md"
