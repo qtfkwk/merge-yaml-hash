@@ -4,7 +4,7 @@ Merge YAML Hash
 
 # Changelog
 
-* 0.1.1 (2019-10-15)
+* 0.1.1-3 (2019-10-15)
     * minor fixes
 * 0.1.0 (2019-10-15)
     * initial release
@@ -41,8 +41,8 @@ SOFTWARE.
 $ cargo test
 
 running 16 tests
-test tests::debug_pretty ... ok
 test tests::debug ... ok
+test tests::debug_pretty ... ok
 test tests::display ... ok
 test tests::merge_file ... ok
 test tests::merge_multiple_file_file_no_conflicts ... ok
@@ -62,10 +62,10 @@ test result: ok. 16 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out
 
 
 running 6 tests
-test src/lib.rs - MergeYamlHash::merge (line 233) ... ok
+test src/lib.rs - MergeYamlHash::merge_vec (line 290) ... ok
 test src/lib.rs - MergeYamlHash::merge (line 226) ... ok
 test src/lib.rs - MergeYamlHash::merge_vec (line 277) ... ok
-test src/lib.rs - MergeYamlHash::merge_vec (line 290) ... ok
+test src/lib.rs - MergeYamlHash::merge (line 233) ... ok
 test src/lib.rs - MergeYamlHash::new (line 196) ... ok
 test src/lib.rs - MergeYamlHash::to_string (line 208) ... ok
 
