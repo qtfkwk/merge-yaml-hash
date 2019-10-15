@@ -4,6 +4,8 @@ Merge YAML Hash
 
 # Changelog
 
+* 0.1.1 (2019-10-15)
+    * minor fixes
 * 0.1.0 (2019-10-15)
     * initial release
 
