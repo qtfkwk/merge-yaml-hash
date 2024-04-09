@@ -25,7 +25,7 @@ assert_eq!(
 hash.merge("tests/c.yaml"); // "banana: 3"
 assert_eq!(
     hash.to_string(),
-    "apple: 1\nbanana: 3\ncherry:\n  sweet: 1\n  tart: 2",
+    "apple: 1\ncherry:\n  sweet: 1\n  tart: 2\nbanana: 3",
 );
 ```
 

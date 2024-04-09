@@ -64,7 +64,7 @@ fn merge_multiple_string_string_with_conflict_2() {
     let mut hash = MergeYamlHash::new();
     let yaml1 = "apple: 1\nbanana: 2".to_string();
     let yaml2 = "apple: 3".to_string();
-    let result = "apple: 3\nbanana: 2";
+    let result = "banana: 2\napple: 3";
     hash.merge_vec(vec![yaml1, yaml2]);
     assert_eq!(hash.to_string(), result);
 }
@@ -74,7 +74,7 @@ fn merge_multiple_string_string_with_conflict_3() {
     let mut hash = MergeYamlHash::new();
     let yaml1 = "apple: 1\nbanana: 2\ncherry: 3".to_string();
     let yaml2 = "banana: 4".to_string();
-    let result = "apple: 1\nbanana: 4\ncherry: 3";
+    let result = "apple: 1\ncherry: 3\nbanana: 4";
     hash.merge_vec(vec![yaml1, yaml2]);
     assert_eq!(hash.to_string(), result);
 }
