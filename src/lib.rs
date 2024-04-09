@@ -1,9 +1,9 @@
 #![doc = include_str!("../README.md")]
 
-use linked_hash_map::Entry;
-use yaml_rust::yaml::Hash;
-pub use yaml_rust::Yaml;
-use yaml_rust::{YamlEmitter, YamlLoader};
+use hashlink::linked_hash_map::Entry;
+use yaml_rust2::yaml::Hash;
+pub use yaml_rust2::Yaml;
+use yaml_rust2::{YamlEmitter, YamlLoader};
 
 #[cfg(test)]
 mod tests;
@@ -12,7 +12,7 @@ mod tests;
 
 YAML Hash with merge/update capabilities
 
-Wrapper around `yaml_rust::yaml::Hash`, which is a type alias for `linked_hash_map::LinkedHashMap`
+Wrapper around `yaml_rust2::yaml::Hash`, which is a type alias for `linked_hash_map::LinkedHashMap`
 
 */
 #[derive(Debug, Default)]

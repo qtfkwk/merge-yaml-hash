@@ -2,7 +2,7 @@
 
 YAML Hash with merge/update capabilities
 
-Wrapper around `yaml_rust::yaml::Hash`, which is a type alias for
+Wrapper around `yaml_rust2::yaml::Hash`, which is a type alias for
 `linked_hash_map::LinkedHashMap`
 
 # Example

@@ -8,5 +8,5 @@ repository = "https://github.com/qtfkwk/merge-yaml-hash"
 license = "MIT"
 
 [dependencies]
-yaml-rust = "0.4.3"
-linked-hash-map = "0.5.2"
+hashlink = "0.8"
+yaml-rust2 = "0.8.0"
