@@ -2,11 +2,11 @@
 name = "merge-yaml-hash"
 description = "YAML Hash with merge/update capabilities"
 categories = ["config", "encoding", "parsing"]
-version = "0.3.0"
+version = "0.4.0"
 edition = "2021"
 repository = "https://github.com/qtfkwk/merge-yaml-hash"
 license = "MIT"
 
 [dependencies]
-yaml-rust = "0.4.3"
-linked-hash-map = "0.5.2"
+yaml-rust = "0.4.5"
+linked-hash-map = "0.5.6"
